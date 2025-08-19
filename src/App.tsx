@@ -5,7 +5,6 @@ import Lenis from "@studio-freight/lenis";
 import { Canvas } from "@react-three/fiber";
 import * as THREE from "three";
 import { Float, OrbitControls } from "@react-three/drei";
-//import useMagnetic from "./eliezer-portfolio/src/hook/useMagnetic";
 
 // ------------------------------------------------------------
 // Portfolio Futurista – Prototipo Fullpage (single-file)
