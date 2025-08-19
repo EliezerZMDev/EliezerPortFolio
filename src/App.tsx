@@ -56,7 +56,7 @@ export default function FuturisticPortfolio() {
 
   // Custom cursor
   useEffect(() => {
-    const el = document.querySelector('#cursor');
+    const el = document.querySelector('#cursor') as HTMLElement;
     const move = (e) => {
       if (!el) return;
       const x = e.clientX - 12;
@@ -384,7 +384,7 @@ function LabCard({ title }) {
 function TorusKnot() {
   const colorA = useMemo(() => new THREE.Color('#22d3ee'), []); // cyan-400
   const colorB = useMemo(() => new THREE.Color('#f472b6'), []); // pink-400
-  const matRef = useRef();
+  const matRef = useRef<THREE.MeshStandardMaterial | null>(null);
   useEffect(() => {
     if (!matRef.current) return;
     const mat = matRef.current;
