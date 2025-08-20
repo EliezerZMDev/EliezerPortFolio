@@ -87,7 +87,7 @@ export default function FuturisticPortfolio() {
       email: "mailto:eliezerzm0312@gmail.com",
       github: "https://github.com/PanchoGoku",
       linkedin: "https://www.linkedin.com/in/eliezer-efrain-zu%C3%B1iga-mancilla-3b4208314/",
-      cv: "/public/CV.pdf" // coloca tu archivo en /public
+      cv: "/CV.pdf" // coloca tu archivo en /public
     }
   };
 
@@ -99,7 +99,7 @@ export default function FuturisticPortfolio() {
       live: "", // opcional: URL si lo vuelves a desplegar
       repo: "", // opcional: URL del repositorio
       status: "semicompletado",
-      image: "/public/proyectos/BlogLiveLogo1.png" // captura de pantalla del proyecto
+      image: "/proyectos/BlogLiveLogo1.png" // captura de pantalla del proyecto
     },
     {
       title: "Portfolio personal",
@@ -108,7 +108,7 @@ export default function FuturisticPortfolio() {
       live: "#hero",
       repo: "",
       status: "en curso",
-      image: "/public/proyectos/Portfolio.png" // captura de pantalla del proyecto
+      image: "/proyectos/Portfolio.png" // captura de pantalla del proyecto
     },
     {
       title: "WIP · Gestor de tareas en tiempo real",
@@ -117,7 +117,7 @@ export default function FuturisticPortfolio() {
       live: "",
       repo: "",
       status: "en curso",
-      image: "/public/proyectos/Syncboard.png" // captura de pantalla del proyecto
+      image: "/proyectos/Syncboard.png" // captura de pantalla del proyecto
     }
   ];
 
