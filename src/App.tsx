@@ -87,7 +87,7 @@ export default function FuturisticPortfolio() {
       email: "mailto:eliezerzm0312@gmail.com",
       github: "https://github.com/PanchoGoku",
       linkedin: "https://www.linkedin.com/in/eliezer-efrain-zu%C3%B1iga-mancilla-3b4208314/",
-      cv: "/proyectos/CV.pdf" // coloca tu archivo en /public
+      cv: "proyectos/CV.pdf" // coloca tu archivo en /public
     }
   };
 
@@ -99,7 +99,7 @@ export default function FuturisticPortfolio() {
       live: "", // opcional: URL si lo vuelves a desplegar
       repo: "", // opcional: URL del repositorio
       status: "semicompletado",
-      image: "/proyectos/BlogLiveLogo1.png" // captura de pantalla del proyecto
+      image: "/dist/proyectos/BlogLiveLogo1.png" // captura de pantalla del proyecto
     },
     {
       title: "Portfolio personal",
@@ -108,7 +108,7 @@ export default function FuturisticPortfolio() {
       live: "#hero",
       repo: "",
       status: "en curso",
-      image: "/proyectos/Portfolio.png" // captura de pantalla del proyecto
+      image: "dist//proyectos/Portfolio.png" // captura de pantalla del proyecto
     },
     {
       title: "WIP · Gestor de tareas en tiempo real",
@@ -117,7 +117,7 @@ export default function FuturisticPortfolio() {
       live: "",
       repo: "",
       status: "en curso",
-      image: "/proyectos/Syncboard.png" // captura de pantalla del proyecto
+      image: "/dist/proyectos/Syncboard.png" // captura de pantalla del proyecto
     }
   ];
 
@@ -146,7 +146,7 @@ export default function FuturisticPortfolio() {
         >
           {dark ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
         </button>
-        <a href="https://github.com/EliezerZMDev" target="_blank" rel="noreferrer" className="inline-flex items-center justify-center h-8 w-8 rounded-full hover:bg-black/5 dark:hover:bg-white/5">
+        <a href="https://github.com/PanchoGoku" target="_blank" rel="noreferrer" className="inline-flex items-center justify-center h-8 w-8 rounded-full hover:bg-black/5 dark:hover:bg-white/5">
           <Github className="h-4 w-4" />
         </a>
       </nav>
@@ -275,7 +275,7 @@ export default function FuturisticPortfolio() {
               </a>
               <a href={PROFILE.links.cv} className="px-5 py-3 rounded-2xl bg-white/70 dark:bg-white/10 border border-black/10 dark:border-white/10 backdrop-blur-md font-semibold inline-flex items-center gap-2 hover:-translate-y-0.5 transition-transform">
 <TriPhoto
-  src="../me.jfif"
+  src="dist/me.jfif"
   alt="Eliezer Zuñiga"
   //quiero que la fot  se vea justo arriba del hero pero en el centro
   className="inline-flex items-center justify-center gap-2 pointer-events-none"
